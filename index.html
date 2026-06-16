@@ -10,16 +10,18 @@
 <meta property="og:title" content="Detroit Dawgs — Real Detroit Coney Dogs on Fort Myers Beach">
 <meta property="og:description" content="Authentic Koegel's Coney dogs shipped from Flint, Michigan, served steps from the sand on Fort Myers Beach.">
 <meta property="og:type" content="restaurant.menu">
-<meta property="og:image" content="assets/img/hero-trailer.svg">
+<meta property="og:image" content="https://detroitdawgsfmb.com/assets/img/hero-scene.svg">
+<meta property="og:url" content="https://detroitdawgsfmb.com/">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FoodEstablishment",
   "name": "Detroit Dawgs",
-  "image": "https://detroitdawgsfmb.com/assets/img/hero-trailer.svg",
+  "image": "https://detroitdawgsfmb.com/assets/img/hero-scene.svg",
   "servesCuisine": ["Hot Dogs", "Coney Island", "American"],
   "priceRange": "$$",
   "telephone": "+1-248-506-0598",
@@ -59,28 +61,58 @@
 </head>
 <body>
 
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-dog" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12c0-2.2 1.8-4 4-4h8c2.2 0 4 1.8 4 4s-1.8 4-4 4H8c-2.2 0-4-1.8-4-4Z"/><path d="M6 8.5 4 6M18 8.5l2-2.5M6 15.5 4 18M18 15.5l2 2.5"/></symbol>
+  <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-7.4 7-12a7 7 0 1 0-14 0c0 4.6 7 12 7 12Z"/><circle cx="12" cy="9" r="2.4"/></symbol>
+  <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="icon-fb" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12Z"/></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 6l9 7 9-7"/></symbol>
+  <symbol id="icon-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13.5" r="3.5"/></symbol>
+  <symbol id="icon-flag-us" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4v16M6 4h13l-2.5 3L19 10H6"/></symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+  <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-9"/></symbol>
+  <symbol id="icon-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.4"/><path d="M15 14.2A5 5 0 0 1 21 19"/></symbol>
+</svg>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
 <header class="site-header">
   <div class="header-inner">
-    <a href="index.html" class="brand">🌭 Detroit <span class="dot">Dawgs</span></a>
-    <button class="nav-toggle" aria-label="Menu">☰</button>
-    <nav class="main-nav">
+    <a href="index.html" class="brand">
+      <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#icon-dog"/></svg></span>
+      Detroit <span class="dot">Dawgs</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <svg class="icon icon-menu" aria-hidden="true"><use href="#icon-menu"/></svg>
+      <svg class="icon icon-close" aria-hidden="true"><use href="#icon-close"/></svg>
+    </button>
+    <nav class="main-nav" id="main-nav">
       <a href="index.html" class="active">Home</a>
       <a href="menu.html">Menu</a>
       <a href="our-story.html">Our Story</a>
       <a href="find-us.html">Find Us</a>
       <a href="community.html">Community</a>
-      <a href="tel:2485060598">Call to Order</a>
+      <a href="tel:2485060598" class="btn btn-mustard">
+        <svg class="icon" aria-hidden="true"><use href="#icon-phone"/></svg>
+        Call to Order
+      </a>
     </nav>
   </div>
 </header>
+
+<main id="main">
 
 <section class="hero">
   <div class="hero-inner">
     <span class="kicker">Fort Myers Beach, FL</span>
     <h1>Real Detroit dogs.<br>Real Florida sun.</h1>
     <p class="lead">Koegel's Coney dogs shipped straight from Flint, Michigan, served up steps from the sand. Across from the Lani Kai — come hungry, leave happy.</p>
-    <div class="btn-row" style="justify-content:center;">
-      <a href="find-us.html" class="btn btn-red">Get Directions</a>
+    <div class="btn-row center">
+      <a href="find-us.html" class="btn btn-red">
+        <svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg>
+        Get Directions
+      </a>
       <a href="menu.html" class="btn btn-outline">View Menu</a>
     </div>
   </div>
@@ -95,15 +127,18 @@
       <p>What began as a side project is now a fixture on Estero Blvd — a real Detroit-and-Flint flavor, served by real Detroit people, on a beach full of fellow snowbirds who know exactly what a proper Coney dog should taste like.</p>
       <a href="our-story.html" class="btn btn-red">Read Our Full Story</a>
     </div>
-    <div>
-      <img src="assets/img/scott-trina.svg" alt="Scott and Trina Legas at the Detroit Dawgs trailer on Fort Myers Beach">
+    <div class="photo-placeholder">
+      <svg aria-hidden="true"><use href="#icon-camera"/></svg>
+      <span>Photo: Scott &amp; Trina at the Detroit Dawgs trailer</span>
     </div>
   </div>
 </section>
 
 <section class="bg-mustard-soft">
-  <div class="wrap sourcing-banner" style="background:var(--navy);">
-    <div class="flag">🇺🇸</div>
+  <div class="wrap sourcing-banner">
+    <div class="flag">
+      <svg class="icon" aria-hidden="true"><use href="#icon-flag-us"/></svg>
+    </div>
     <div>
       <h3 style="margin-bottom:6px;">Shipped from Flint. No substitutes. No shortcuts.</h3>
       <p style="margin:0; opacity:.9;">Our Koegel's hot dogs come in with all-natural casings, straight from Flint, Michigan. We also run all-beef Chicago dogs with Vienna natural casings. Anything less would be cheating.</p>
@@ -114,7 +149,7 @@
 <section class="bg-navy">
   <div class="wrap">
     <h2 class="section-title" style="color:#fff;">A taste of home on the beach</h2>
-    <p class="section-sub" style="color:rgba(255,255,255,.8);">Fort Myers Beach sees a huge wave of Michigan snowbirds every winter — and they find us fast.</p>
+    <p class="section-sub">Fort Myers Beach sees a huge wave of Michigan snowbirds every winter — and they find us fast.</p>
     <div class="stat-row">
       <div>
         <div class="stat-num">100%</div>
@@ -137,16 +172,19 @@
     <h2 class="section-title">Why people keep coming back</h2>
     <div class="card-grid">
       <div class="card">
+        <div class="card-icon"><svg class="icon" aria-hidden="true"><use href="#icon-dog"/></svg></div>
         <span class="badge">Authentic</span>
         <h3>Koegel's & Vienna, the real deal</h3>
         <p>Detroit and Flint Coney dogs made with the same brands you grew up on — not a knockoff, not a "Detroit-style" imitation.</p>
       </div>
       <div class="card">
+        <div class="card-icon"><svg class="icon" aria-hidden="true"><use href="#icon-users"/></svg></div>
         <span class="badge">Friendly</span>
         <h3>Run by the owners, every day</h3>
         <p>Scott and Trina are usually right there at the window. No corporate script, just two people who genuinely like feeding you.</p>
       </div>
       <div class="card">
+        <div class="card-icon"><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg></div>
         <span class="badge">Local</span>
         <h3>Across from the Lani Kai</h3>
         <p>Easy to find, easy to grab on your way to or from the beach. Wheelchair-accessible parking right behind us.</p>
@@ -156,15 +194,47 @@
 </section>
 
 <section class="bg-mustard-soft">
-  <div class="wrap" style="text-align:center;">
-    <h2 class="section-title">Ready for a real Coney dog?</h2>
-    <div class="btn-row" style="justify-content:center;">
-      <a href="find-us.html" class="btn btn-red">Get Directions</a>
-      <a href="menu.html" class="btn btn-outline" style="border-color:var(--navy); color:var(--navy);">View Full Menu</a>
-      <a href="tel:2485060598" class="btn btn-mustard">Call to Order</a>
+  <div class="wrap">
+    <h2 class="section-title">From the window</h2>
+    <p class="section-sub">Real food, real trailer, real beach — photos coming soon. (Swap these placeholders for your own shots any time.)</p>
+    <div class="gallery-grid">
+      <div class="photo-placeholder"><svg aria-hidden="true"><use href="#icon-camera"/></svg><span>Detroit Coney dog</span></div>
+      <div class="photo-placeholder"><svg aria-hidden="true"><use href="#icon-camera"/></svg><span>Chicago dog, dragged through the garden</span></div>
+      <div class="photo-placeholder"><svg aria-hidden="true"><use href="#icon-camera"/></svg><span>The trailer on Estero Blvd</span></div>
+      <div class="photo-placeholder"><svg aria-hidden="true"><use href="#icon-camera"/></svg><span>Scott &amp; Trina at the window</span></div>
     </div>
   </div>
 </section>
+
+<section>
+  <div class="wrap text-center max-narrow">
+    <h2 class="section-title">Follow along on Facebook</h2>
+    <p class="section-sub">Our Facebook page is where we post specials, hours changes, and where we're showing up next — it's the most current source for what's happening at the trailer.</p>
+    <a href="https://www.facebook.com/profile.php?id=detroitdawgsfmb" target="_blank" rel="noopener" class="social-cta">
+      <svg aria-hidden="true"><use href="#icon-fb"/></svg>
+      Visit Our Facebook Page
+    </a>
+  </div>
+</section>
+
+<section class="bg-mustard-soft">
+  <div class="wrap text-center">
+    <h2 class="section-title">Ready for a real Coney dog?</h2>
+    <div class="btn-row center">
+      <a href="find-us.html" class="btn btn-red">
+        <svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg>
+        Get Directions
+      </a>
+      <a href="menu.html" class="btn btn-outline-navy">View Full Menu</a>
+      <a href="tel:2485060598" class="btn btn-mustard">
+        <svg class="icon" aria-hidden="true"><use href="#icon-phone"/></svg>
+        Call to Order
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
 
 <footer class="site-footer">
   <div class="wrap footer-grid">
@@ -174,10 +244,14 @@
     </div>
     <div>
       <h4>Contact</h4>
-      <p><a href="tel:2485060598">(248) 506-0598</a><br>
-      <a href="mailto:Detroitdawgsfmb@gmail.com">Detroitdawgsfmb@gmail.com</a></p>
+      <p>
+        <span class="footer-contact-line"><svg class="icon" aria-hidden="true"><use href="#icon-phone"/></svg><a href="tel:2485060598">(248) 506-0598</a></span>
+        <span class="footer-contact-line"><svg class="icon" aria-hidden="true"><use href="#icon-mail"/></svg><a href="mailto:Detroitdawgsfmb@gmail.com">Detroitdawgsfmb@gmail.com</a></span>
+      </p>
       <div class="social-icons">
-        <a href="https://www.facebook.com" aria-label="Facebook">f</a>
+        <a href="https://www.facebook.com/profile.php?id=detroitdawgsfmb" aria-label="Detroit Dawgs on Facebook" target="_blank" rel="noopener">
+          <svg aria-hidden="true"><use href="#icon-fb"/></svg>
+        </a>
       </div>
     </div>
     <div>
@@ -192,8 +266,8 @@
 </footer>
 
 <div class="sticky-cta">
-  <a href="find-us.html">📍 Directions</a>
-  <a href="tel:2485060598">📞 Call to Order</a>
+  <a href="find-us.html"><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg>Directions</a>
+  <a href="tel:2485060598"><svg class="icon" aria-hidden="true"><use href="#icon-phone"/></svg>Call to Order</a>
 </div>
 
 <script src="assets/js/main.js"></script>
