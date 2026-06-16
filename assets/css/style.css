@@ -140,6 +140,15 @@ input:focus-visible {
 }
 .brand .icon-badge svg { width: 20px; height: 20px; }
 
+.brand-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--mustard);
+}
+
 .brand .dot { color: var(--mustard); }
 
 .main-nav {
@@ -250,8 +259,8 @@ input:focus-visible {
   min-height: 92dvh;
   display: flex;
   align-items: center;
-  background: linear-gradient(180deg, rgba(11,31,58,0.78), rgba(11,31,58,0.55) 45%, rgba(11,31,58,0.88)),
-              url('../img/hero-scene.svg') center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(11,31,58,0.72), rgba(11,31,58,0.48) 45%, rgba(11,31,58,0.82)),
+              url('../img/hero.jpeg') center/cover no-repeat;
   color: #fff;
   text-align: center;
 }
